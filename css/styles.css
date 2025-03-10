@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Nunito;
+    src: url(../fonts/Nunito-Light.ttf);
+}
+
+:root {
+
+    --color-purple-700: #5a00be;
+    
+    --color-light-100: #fff;
+    
+}
+
+body {
+    
+    font-family: Nunito;
+    
+}
+
+.login-icon {
+    
+    font-size: 72px;
+    
+}
+
+.login-header {
+    
+    color: var(--color-light-100);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-purple-700);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.link-text {
+    text-decoration: none;
+    color: var(--color-purple-700);
+    margin: 0 5px;
+    font-weight: 700;
+}
+
+.link-icon {
+
+    font-size: 29px;
+    margin-right: 15px;
+}
